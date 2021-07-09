@@ -42,6 +42,11 @@
     font-weight: 900;
     color: white;
     font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+
+#button-container button:hover {
+    filter:drop-shadow(8px 8px 10px gray);
 }
 
 #button-container :first-child {
@@ -63,11 +68,12 @@
 #section-1 form input {
     transform: scale(1.2);
     margin-right: 10px;
+    cursor: pointer;
 }
 
 input[type="radio"]:checked:after {
-    width: 7px;
-    height: 7px;
+    width: 6px;
+    height: 6px;
     border-radius: 6px;
     position: absolute;
     left: 2.2px;

@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-
 #section-5 {
     max-width: 1920px;
     min-height: 700px;
@@ -43,6 +42,16 @@
     background-color: white;
     border: 6px solid #1abc9c;
     margin-bottom: 18px;
+}
+
+
+.section-5-circle-1:hover {
+    border: 6px solid #21C2F8;
+}
+
+.section-5-circle-1:hover .section-5-circle-2 {
+    background-color: #2C3E50;
+    color: white;
 }
 
 .section-5-circle-2 {

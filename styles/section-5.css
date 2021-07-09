@@ -4,8 +4,6 @@
 #section-5 {
     max-width: 1920px;
     min-height: 700px;
-    display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     font-family: 'Lato', sans-serif;
@@ -30,17 +28,12 @@
 }
 
 #section-5-circle-wrapper {
-    display: flex;
     text-align: center;
     justify-content: space-between;
 }
 
 .section-5-circle-container {
     max-width: 300.32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
 .section-5-circle-1 {
@@ -49,20 +42,13 @@
     border-radius: 50%;
     background-color: white;
     border: 6px solid #1abc9c;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 18px;
-
 }
 
 .section-5-circle-2 {
     width: 104.48px;
     height: 104.48px;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #ECF0F1;
     color: #4E4E4E;
     font-size: 18px;
@@ -73,7 +59,6 @@
     font-weight: 700;
     line-height: 40px;
     margin-bottom: 4px;
-    
 }
 
 .section-5-circle-container :nth-child(3) {

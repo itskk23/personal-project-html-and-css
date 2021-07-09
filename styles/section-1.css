@@ -4,10 +4,6 @@
     max-width: 1920px;
     height: 1280px;
     background-color: #222533;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     color: white;
     font-family: 'Lato', sans-serif; 
 }

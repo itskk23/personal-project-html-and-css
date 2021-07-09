@@ -4,21 +4,15 @@
 #section-4 {
     max-width: 1920px;
     background-color: #ECF0F1;
-    /* border-top: 1px solid #707070; */
     min-height: 501px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     font-family: 'Lato', sans-serif;
 }
 
 #section-4-text {
     max-width: 570px;
-    margin-right: 63px;
-    margin-left: 2.5px;
+    margin: 0px 63px 0px 2.5px;
     height: 292px;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -33,7 +27,6 @@
     font-size: 14px;
     color: #A1B1BC;
     line-height: 24px;
-    
 }
 
 #section-4-text :nth-child(3) {

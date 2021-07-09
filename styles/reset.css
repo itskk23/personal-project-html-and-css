@@ -8,3 +8,20 @@ body, html {
     margin: 0;
     padding: 0; 
 }
+
+.flex {
+    display: flex;
+}
+
+.flex-row-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

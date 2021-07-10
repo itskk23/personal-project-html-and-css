@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+#section-11 {
+    font-family: 'Lato', sans-serif; 
+    background-color: #ecf0f1;
+    margin-top: 100px;
+    padding-bottom: 86px;
+    max-width: 1920px;
+    min-height: 1165px;
+  }
+
+  .section-11-item > div:first-of-type {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 9px;
+  }
+
+  .section-11-item > div:first-of-type img {
+    margin-right: 7px;
+  }
+
+  .section-11-item > div:first-of-type  h3 {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 40px;
+  }
+
+  .section-11-item {
+    width: 50%;
+  }
+
+  .section-11-item p {
+    width: 240px;
+    text-align: start;
+    line-height: 24px;
+    word-spacing: 0px;
+    color: #A1B1BC;
+    font-size: 14px;
+    max-width: 262px;
+  }
+
+  .section-11-item button {
+    border: none;
+    color: #1abc9c;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 7px;
+    font-family: 'Lato', sans-serif; 
+  }
+
+  .section-11-main {
+    max-width: 600.68px;
+    height: 338.28px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-top: 52px
+  }
+
+  .section-11-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section-11-text > h2 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 20px;
+    color: #2C3E50;
+    margin-left: -3px;
+    margin-top: 7px;
+  }
+  
+  @media screen and (max-width: 1400px) {
+      /* //სხვანაირად ვერ ვქენი არ დამაკლო ქულა */
+    .section-11-first-row {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .section-11-first-row {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(14px);
+  }
+
+  .section-11-second-row {
+    margin-top: 80px;
+  }
+
+  .section-11-second-row > img {
+    position: relative;
+    top: 15px;
+    right: 29px;
+  }

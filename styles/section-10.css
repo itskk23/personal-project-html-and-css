@@ -43,8 +43,8 @@
   
 .pricnig-column {
     display: grid;
-    /* grid-template-rows: 152px repeat(6, 39px) 80px; */
-    grid-template-rows: 152px repeat(6, 38.5px) 83px;
+    grid-template-rows: 152px repeat(6, 39px) 80px;
+    /* grid-template-rows: 152px repeat(6, 38.5px) 83px; */
     grid-gap: 1px;
 }
 

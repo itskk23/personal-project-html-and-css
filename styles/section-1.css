@@ -76,8 +76,8 @@ input[type="radio"]:checked:after {
     height: 6px;
     border-radius: 6px;
     position: absolute;
-    left: 2.2px;
-    top: 2.2px;
+    left: 1.8px;
+    top: 1.8px;
     background-color: #1abc9c;
     content: "";
     display: inline-block;

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+#section-9 {
+    font-family: 'Lato', sans-serif; 
+    max-width: 1920px;
+    min-height: 882px;
+    background-color: #ECF0F1;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 103px;
+    background-image: url(../images/Clip.svg);
+    background-position: center center;
+}
+
+#section-9 h1 {
+    color: white;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 20px;
+    margin-bottom: 21px;
+}
+
+#section-9 h1 span {
+    color: #26e2bd
+}
+
+#section-9 > p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #E8E8E8;
+}
+
+#section-9-menu {
+    justify-content: space-between;
+    width: 1173px;
+    margin: auto;
+    margin-top: 131px;
+}
+
+.section-9-menu-column-1 {
+    text-align: end;
+}
+
+.section-9-menu-column-2 {
+    text-align: start;
+}
+
+.section-9-menu-column-item{
+    max-width: 300px;
+    margin-bottom: 38px;
+    color: white;
+}
+
+.section-9-menu-column-item h3 {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.section-9-menu-column-item:first-child h3{
+    margin-bottom: 25px;
+}
+
+.section-9-menu-column-item:nth-child(2) h3 {
+    margin-bottom: 22px;
+}
+
+.section-9-menu-column-item:nth-child(3) h3 {
+    margin-bottom: 23px;
+}
+
+.section-9-menu-column-1 h3 {
+    margin-right: 10px;
+}
+
+.section-9-menu-column-2 h3 {
+    margin-left: 6px;
+}
+
+.section-9-menu-column-item p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.section-9-menu-column-item i {
+   font-size: 50px;
+   color: #1fdab5;
+   background-color: white;
+   border-radius: 50%;
+   vertical-align: middle;
+}

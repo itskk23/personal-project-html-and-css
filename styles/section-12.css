@@ -4,12 +4,20 @@
     font-family: 'Lato', sans-serif; 
     background-color: white;
     margin-top: 100px;
-    padding-bottom: 86px;
+    /* padding-bottom: 86px; */
     max-width: 1920px;
-    min-height: 730px;
-  }
+    min-height: 688px;
+}
 
-#section-12 > h1 {
+.section-12-fixer{
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-12-fixer  h1 {
     color: #2C3E50;
     font-weight: 300;
     font-size: 36px;
@@ -19,7 +27,7 @@
     transform: translateX(6px);
 }
 
-#section-12 > p {
+.section-12-fixer  p {
     font-size: 14px;
     line-height: 24px;
     color: #A1B1BC;

@@ -26,3 +26,19 @@ body, html {
     align-items: center;
     flex-direction: column;
 }
+
+.section-15-fix-margin-1 {
+    margin-left: 10px;
+}
+
+.section-15-fix-padding-1 {
+    padding-left: 8px;
+}
+
+.section-15-fix-padding-2{
+    padding-left: 11px;
+}
+
+.section-15-fix-padding-3{
+    padding-left: 3px;
+}

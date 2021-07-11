@@ -16,7 +16,6 @@
   margin-right: 31px;
 }
 
-
 .section-13-content:first-child {
   margin-left: 28px;
 }
@@ -66,6 +65,7 @@
   border-radius: 3px;
   background-color: transparent;
   border: 1px solid #636372;
+  color: white;
 }
 
 #section-13 form textarea {

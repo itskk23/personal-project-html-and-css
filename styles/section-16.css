@@ -60,3 +60,20 @@
     color: #1ABC9C;
     border-top: 1px solid #1ABC9C;
 }
+
+@media screen and (max-width: 1279px) {
+    #section-16-wrapper {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    #section-16-wrapper {
+        width: 700px;
+        justify-content: center;
+    }
+
+    .section-16-first {
+        margin-bottom: 20px;
+    }
+}

@@ -148,3 +148,40 @@
 .section-7-main-white {
     background-color: #ECF0F1;
 }
+
+@media screen and (max-width: 1279px) {
+    #section-7 h1 {
+        font-size: 23px;
+    }
+
+    #section-7-navbar {
+        width: 80%;
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #section-7-navbar ul {
+        width: 80%;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+
+    #section-7-navbar ul li {
+        margin-right: 20px;
+    }
+
+    #section-7-navbar button {
+        margin-bottom: 10px;
+    }
+
+    #section-7-main {
+        justify-content: center;
+    }
+
+    #section-7-main>div {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}

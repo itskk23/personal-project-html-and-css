@@ -140,3 +140,34 @@
 .section-13-figure-text h4{
   margin-bottom: 6px;
 }
+
+@media screen and (max-width: 1279px) {
+  #section-13 {
+    flex-wrap: wrap;
+  }
+
+  .section-13-content {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 767px)  {
+
+  
+  .section-13-figure-text {
+    width: 300px;
+  }
+
+  .section-13-content-team {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-13-content > h1 {
+    font-size: 23px;
+    margin-left: 20px;
+  }
+}

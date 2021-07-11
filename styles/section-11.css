@@ -97,3 +97,20 @@
     top: 15px;
     right: 29px;
   }
+  
+  @media screen and (max-width: 1279px){
+    .section-11-first-row > img {
+      margin: 20px 0px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .section-11-first-row > img {
+      width: 450px;
+      height: 450px;
+    }
+
+    .section-11-text > h2 {
+      font-size: 23px;
+    }
+  }

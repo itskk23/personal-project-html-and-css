@@ -175,3 +175,19 @@
     font-weight: 700;
     line-height: 27px;
 }
+
+@media screen and (max-width: 1279px) {
+    #section-15 {
+        padding-top: 40px;
+    }
+    
+    .section-15-wrapper {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .section-15-content {
+        margin-bottom: 30px;
+    }
+}

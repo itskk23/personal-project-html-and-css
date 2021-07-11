@@ -43,3 +43,22 @@
 #section-2 ul li a:hover{
     color: #1ABC9C;
 }
+
+
+@media screen and (max-width: 1279px) {
+    #section-2 {
+        flex-wrap: wrap;
+    }
+    #section-2 #logo-wrapper {
+        margin: 0 auto;
+    }
+
+    #section-2 ul{
+        margin: auto;
+        justify-content: center;
+    }
+
+    #section-2 ul li {
+        margin-bottom: 10px;
+    }
+}

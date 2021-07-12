@@ -72,17 +72,15 @@
 }
 
 input[type="radio"]:checked:after {
-    width: 6px;
-    height: 6px;
-    border-radius: 6px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
     position: absolute;
-    left: 1.8px;
-    top: 1.8px;
     background-color: #1abc9c;
     content: "";
     display: inline-block;
     visibility: visible;
-    border: 1px solid white;
+    border: 2px solid white;
   }
 
 

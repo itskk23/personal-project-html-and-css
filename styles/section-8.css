@@ -112,3 +112,29 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    #section-8 h1 {
+        font-size: 20px;
+    }
+
+    #section-8 > :nth-child(2) {
+        font-size: 13px;
+    }
+
+    #section-8-white-box {
+        height: 300px;
+    }
+
+    #section-8 form input {
+        transform: scale(1);
+    }
+
+    input[type="radio"]:checked:after {
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+        left: 0px;
+        top: 0px;
+      }
+}
+

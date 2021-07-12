@@ -250,6 +250,10 @@
 
 @media screen and (max-width: 767px) {
     .pricing-content {
-        width: 500px;
+        width: auto;
+    }
+
+    .pricing-content {
+        grid-template-columns: auto;
     }
 }

@@ -77,3 +77,28 @@
         margin-bottom: 20px;
     }
 }
+
+
+@media screen and (max-width: 767px) {
+    .section-16-first {
+        width: auto;
+    }
+    .section-16-first p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .section-16-first {
+        width: auto;
+    }
+
+    .section-16-first img {
+        display: none;
+    }
+
+    #section-16 ul {
+        width: auto;
+    }
+}

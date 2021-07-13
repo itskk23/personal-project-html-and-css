@@ -110,6 +110,7 @@
     color: white;
     font-weight: 700;
     box-shadow: 0px 2px 0px #16a085;
+    cursor: pointer;
 }
   
 .pricing-header-second h3 {
@@ -186,10 +187,15 @@
     margin-right: 3px;
     cursor: pointer;
 }
+
+.pricing-last button:hover {
+    filter:drop-shadow(8px 8px 10px gray);
+}
   
 .pricing-text-position {
     flex-direction: column;
     height: 100%;
+    margin-left: -2px;
 }
   
 .pricing-last-text h3 {

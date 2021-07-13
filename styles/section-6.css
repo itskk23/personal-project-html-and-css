@@ -26,15 +26,20 @@
 
 .section-6-services-container {
     text-align: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     width: 100%;
 }
 
 .section-6-services {
     max-width: 480px;
-    height: 301.27px;
+    min-height: 301.27px;
     border: 1px solid #ECF0F1;
-    padding: 44px 69px;    
+    padding: 44px 69px; 
+    cursor: pointer;   
+}
+
+.section-6-services:hover {
+    background-color: #F9FBFB;
 }
 
 .section-6-services img {
@@ -67,6 +72,10 @@
     #section-6 {
         padding: 0;
         min-height: 900px;
+    }
+
+    .section-6-services-container {
+        flex-wrap: wrap;
     }
 
     #section-6 h1 {

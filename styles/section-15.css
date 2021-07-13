@@ -105,6 +105,7 @@
     border: 1px solid #222533;
     border-radius: 3px;
     outline: none;
+    color: white;
 }
 
 .section-15-input input::placeholder {
@@ -118,7 +119,12 @@
     height: 50px;
     font-size: 23px;
     background-color: #1ABC9C;
+    cursor: pointer;
 } 
+
+.section-15-input div:hover {
+    filter:drop-shadow(8px 8px 10px gray);
+}
 
 .section-15-3-squares {
     margin-bottom: 30px;

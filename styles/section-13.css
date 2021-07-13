@@ -74,6 +74,7 @@
   background-color: transparent;
   border: 1px solid #636372;
   border-radius: 3px;
+  color: white;
 }
 
 #section-13 form input::placeholder {
@@ -114,6 +115,7 @@
   height: 125px;
   background-color: white;
   cursor: pointer;
+  font-size: 70px;
 }
 
 .section-13-figure:hover {

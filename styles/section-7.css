@@ -64,6 +64,10 @@
     cursor: pointer;
 }
 
+#section-7-navbar button:hover {
+    filter:drop-shadow(8px 8px 10px gray);
+}
+
 #section-7-main {
     max-width: 1170.24px;
     flex-wrap: wrap;
@@ -119,12 +123,18 @@
 .section-7-main-white::after {
     color: #A1B1BC;
 }
+.section-7-main-black:hover,
+.section-7-main-white:hover {
+    background-color: #2C3E50;
+}
+
 
 .section-7-main-black:hover::after,
 .section-7-main-white:hover::after,
 .section-7-main-black:hover .section-7-hover,
 .section-7-main-white:hover .section-7-hover {
     display: block;
+    
 }
 
 .section-7-main-white:hover  span, 

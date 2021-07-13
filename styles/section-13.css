@@ -143,6 +143,27 @@
   margin-bottom: 6px;
 }
 
+.margin-fixer{
+  margin-bottom: 32px;
+}
+
+.section-13-squares {
+  display: flex;
+}
+
+.section-13-squares div {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  cursor: pointer;
+  margin-right: 6px;
+
+}
+
+.section-13-squares div:hover {
+  background-color: #1abc9c;
+}
+
 @media screen and (max-width: 1279px) {
   #section-13 {
     flex-wrap: wrap;

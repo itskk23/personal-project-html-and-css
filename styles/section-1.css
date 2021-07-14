@@ -126,4 +126,8 @@ input[type="radio"]:checked:after {
     #button-container button {
         margin-bottom: 20px;
     }
+
+    #section-1 {
+        height: auto;
+    }
   }

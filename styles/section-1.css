@@ -112,6 +112,10 @@ input[type="radio"]:checked:after {
   }
 
   @media screen and (max-width: 767px) {
+    #section-1 h3:first-child {
+        margin: 0px 0px 9px 14px;
+    }
+
     #button-container {
         display: flex;
         flex-direction: column;

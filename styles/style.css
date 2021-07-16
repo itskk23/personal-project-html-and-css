@@ -1,6 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+.circle-1 {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #DBE7EF;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle-2 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #DBE7EF;
+  border-radius: 50%;
+  position: absolute;
+}
+
 #section-1 {
   max-width: 1920px;
   height: 1280px;
@@ -186,6 +205,22 @@
     color: #ffff;
   }
 }
+.circle-1 {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #DBE7EF;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle-2 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #DBE7EF;
+  border-radius: 50%;
+  position: absolute;
+}
+
 #section-3 {
   max-width: 1920px;
   min-height: 436px;
@@ -204,32 +239,23 @@
   margin-right: 30px;
 }
 #section-3 .section-3-description h3 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 19px;
   margin: 50px 0px 10px 0px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 19px;
 }
 #section-3 .section-3-description p {
   font-size: 14px;
+  font-weight: 400;
   line-height: 24px;
   color: #A1B1BC;
   padding: 0 40px;
 }
 #section-3 .circle-1 {
-  width: 60px;
-  height: 60px;
-  border: 1px solid #DBE7EF;
-  border-radius: 50%;
-  position: absolute;
   top: -32px;
-  background-color: #ffffff;
+  background-color: #ffff;
 }
 #section-3 .circle-2 {
-  width: 50px;
-  height: 50px;
-  border: 1px solid #DBE7EF;
-  border-radius: 50%;
-  position: absolute;
   left: 3.5px;
   top: 3.5px;
 }
@@ -240,6 +266,304 @@
   }
   #section-3 .section-3-description {
     margin: 20px 10px 20px 0px;
+  }
+}
+.circle-1 {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #DBE7EF;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle-2 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #DBE7EF;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#section-4 {
+  max-width: 1920px;
+  background-color: #ECF0F1;
+  min-height: 501px;
+  flex-wrap: wrap;
+  font-family: "Lato", sans-serif;
+}
+#section-4-text {
+  max-width: 570px;
+  margin: 0px 63px 0px 2.5px;
+  height: 292px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#section-4-text h1 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 19px;
+}
+#section-4-text p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #A1B1BC;
+}
+#section-4-text :nth-child(3) {
+  padding-bottom: 3px;
+}
+#section-4-text button {
+  width: 173.68px;
+  height: 50px;
+  background-color: #ffff;
+  color: #34495E;
+  border: 1px solid #E5E5E5;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+  padding-bottom: 4px;
+  cursor: pointer;
+}
+#section-4-text button:hover {
+  filter: drop-shadow(8px 8px 10px gray);
+}
+#section-4 img {
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 1279px) {
+  #section-4 {
+    min-height: 800px;
+  }
+  #section-4-text {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  #section-4 img {
+    width: 300px;
+    height: 300px;
+  }
+
+  #section-4-text h1 {
+    font-size: 23px;
+  }
+
+  #section-4-text p {
+    font-size: 13px;
+  }
+}
+.circle-1 {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #DBE7EF;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle-2 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #DBE7EF;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#section-5 {
+  max-width: 1920px;
+  min-height: 700px;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+  background-color: #222533;
+  color: #ffff;
+  padding-top: 101px;
+}
+#section-5 h1 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+#section-5 > p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 612px;
+  margin-bottom: 55px;
+}
+#section-5-circle-wrapper {
+  text-align: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#section-5 .section-5-circle-container {
+  max-width: 300.32px;
+}
+#section-5 .section-5-circle-1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #ffff;
+  border: 6px solid #1ABC9C;
+  margin-bottom: 18px;
+}
+#section-5 .section-5-circle-1:hover {
+  border: 6px solid #21C2F8;
+}
+#section-5 .section-5-circle-2 {
+  width: 104.48px;
+  height: 104.48px;
+  border-radius: 50%;
+  background-color: #ECF0F1;
+  color: #4E4E4E;
+  font-size: 18px;
+}
+#section-5 .section-5-circle-1:hover .section-5-circle-2 {
+  background-color: #2C3E50;
+  color: #ffff;
+}
+#section-5 .section-5-circle-container :nth-child(2) {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 4px;
+}
+#section-5 .section-5-circle-container :nth-child(3) {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 1279px) {
+  #section-5 {
+    padding: 0;
+  }
+  #section-5 h1 {
+    margin-top: 20px;
+    font-size: 23px;
+  }
+  #section-5 .section-5-circle-container {
+    margin-bottom: 20px;
+  }
+  #section-5 #section-5-circle-wrapper {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1023px) {
+  #section-5 > p {
+    font-size: 12px;
+  }
+}
+.circle-1 {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #DBE7EF;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle-2 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #DBE7EF;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#section-6 {
+  font-family: "Lato", sans-serif;
+  max-width: 1920px;
+  min-height: 534.36px;
+  padding-top: 102px;
+}
+#section-6 h1 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 24px;
+}
+#section-6 > p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 630.7px;
+  text-align: center;
+  margin-bottom: 46px;
+  color: #A1B1BC;
+}
+#section-6 .section-6-services-container {
+  text-align: center;
+  /* flex-wrap: wrap; */
+  width: 100%;
+}
+#section-6 .section-6-services {
+  max-width: 480px;
+  min-height: 301.27px;
+  border: 1px solid #ECF0F1;
+  padding: 44px 69px;
+  cursor: pointer;
+}
+#section-6 .section-6-services:hover {
+  background-color: #F9FBFB;
+}
+#section-6 .section-6-services img {
+  margin-bottom: 39px;
+}
+#section-6 .section-6-services:nth-child(2) img {
+  margin-bottom: 34px;
+}
+#section-6 .section-6-services:last-child h4 {
+  margin-bottom: 16px;
+}
+#section-6 .section-6-services h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 13px;
+}
+#section-6 .section-6-services p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #A1B1BC;
+}
+
+@media screen and (max-width: 1279px) {
+  #section-6 {
+    padding: 0;
+    min-height: 900px;
+  }
+  #section-6 .section-6-services-container {
+    flex-wrap: wrap;
+  }
+  #section-6 h1 {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #section-6 h1 {
+    font-size: 23px;
+  }
+  #section-6 h1 .section-6-services {
+    margin-bottom: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 375px;
+  }
+  #section-6 h1 .section-6-services p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #section-6 > p {
+    max-width: 400px;
   }
 }
 

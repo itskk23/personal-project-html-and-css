@@ -29,3 +29,28 @@ $sizes: (1: 60px, 2: 50px);
 @function circleSize($circle-size){
     @return $circle-size;
 }
+
+
+input[type="radio"]:checked:after {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: $primary-color;
+    content: "";
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+  }
+
+@for $i from 1 to 4 {
+    .section-9-menu-column-item:nth-child(#{$i}) h3 {
+        @if #{$i} == 1 {
+            margin-bottom: 25px;
+        } @else if #{$i} == 2 {
+            margin-bottom: 22px;
+        } @else {
+            margin-bottom: 23px;
+        }
+    }
+}

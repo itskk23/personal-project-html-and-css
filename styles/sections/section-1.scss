@@ -62,17 +62,7 @@
             cursor: pointer;
         }
     }
-    input[type="radio"]:checked:after {
-        width: 9px;
-        height: 9px;
-        border-radius: 50%;
-        position: absolute;
-        background-color: $primary-color;
-        content: "";
-        display: inline-block;
-        visibility: visible;
-        border: 2px solid white;
-      }
+  
 }
   @media screen and (max-width: 1279px) {
     #section-1 {

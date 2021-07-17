@@ -1,7 +1,16 @@
 @import './palette';
-
-
 $sizes: (1: 60px, 2: 50px);
+$characters: ('Q': #ef584d, 'R': #7bc200);
+
+
+
+@each $index, $character in $characters {
+    .color-#{$index} {
+        color: $character;
+        font-size: 16px;
+    }
+}
+
 
 @each $index, $size in $sizes {
     .circle-#{$index} {
@@ -30,6 +39,17 @@ $sizes: (1: 60px, 2: 50px);
     @return $circle-size;
 }
 
+@for $i from 1 to 4 {
+    .section-9-menu-column-item:nth-child(#{$i}) h3 {
+        @if #{$i} == 1 {
+            margin-bottom: 25px;
+        } @else if #{$i} == 2 {
+            margin-bottom: 22px;
+        } @else {
+            margin-bottom: 23px;
+        }
+    }
+}
 
 input[type="radio"]:checked:after {
     width: 9px;
@@ -43,14 +63,36 @@ input[type="radio"]:checked:after {
     border: 2px solid white;
   }
 
-@for $i from 1 to 4 {
-    .section-9-menu-column-item:nth-child(#{$i}) h3 {
-        @if #{$i} == 1 {
-            margin-bottom: 25px;
-        } @else if #{$i} == 2 {
-            margin-bottom: 22px;
-        } @else {
-            margin-bottom: 23px;
-        }
-    }
+  
+.flex {
+    display: flex;
+}
+
+.flex-row-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-15-fix-margin-1 {
+    margin-left: 10px;
+}
+
+.section-15-fix-padding-1 {
+    padding-left: 8px;
+}
+
+.section-15-fix-padding-2{
+    padding-left: 11px;
+}
+
+.section-15-fix-padding-3{
+    padding-left: 3px;
 }

@@ -1,0 +1,33 @@
+@media screen and (max-width: 1279px) {
+    #section-6 {
+        padding: 0;
+        min-height: 900px;
+        .section-6-services-container {
+            flex-wrap: wrap;
+        }
+        h1 {
+            margin-top: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #section-6 h1 {
+        font-size: 23px;
+        .section-6-services {
+            margin-bottom: 30px;
+            padding: 10px;
+            @include flex (center, column, center);
+            max-width: 375px;
+            p {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #section-6 > p {
+        max-width: 400px;
+    }
+}

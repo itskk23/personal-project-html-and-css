@@ -1,0 +1,34 @@
+@media screen and (max-width: 1279px) {
+    .pricing-last:hover .pricing-hover {
+        display: none;
+    }
+    .pricing-last-text {
+        width: 100%;
+        flex-wrap: wrap;
+        /* height: auto; */
+        height: 150px;
+        padding-left: 10px;
+    }
+    .pricing-last-text p {
+        margin-bottom: 15px;
+    }
+    .pricing-last button {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    #section-10 {
+        padding-top: 20px;
+    }
+    #section-10 h2 {
+        font-size: 23px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .pricing-content {
+        width: auto;
+    }
+    .pricing-content {
+        grid-template-columns: auto;
+    }
+}

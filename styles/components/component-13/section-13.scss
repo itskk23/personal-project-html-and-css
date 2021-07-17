@@ -1,0 +1,140 @@
+#section-13 {
+    font-family: 'Lato', sans-serif; 
+    background-color: #2f313d;
+    padding: 102px 0px 86px 0px;
+    max-width: 1920px;
+    min-height: 776px;
+    color: $color-white;
+    display: flex;
+    justify-content: center;
+}
+
+.section-13-content {
+  width: 570px;
+  margin-right: 31px;
+  &:first-child {
+    margin-left: 28px;
+  }
+  > h1 {
+    @include font(36px, 300, 20px);
+    margin-bottom: 49px;
+    }
+    > p {
+        @include font(14px, 400, 24px);
+        margin-bottom: 17px;
+    }
+    &-icons {
+        width: 87%;
+        justify-content: space-between;
+        margin-bottom: 29px;
+        i {
+            font-size: 25px;
+            margin-right: 10px;
+            cursor: pointer;
+            &:hover {
+                color: #16B5D8;
+              }
+          }
+    }
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+#section-13 form {
+  flex-direction: column;
+  height: 386px;
+  justify-content: space-between;
+  input {
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid #636372;
+    color: $color-white;
+    &::placeholder {
+        color: $color-white;
+        padding-left: 20px;
+        @include font(15px, 400, 30px);
+      }
+  }
+  textarea {
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    border: 1px solid #636372;
+    border-radius: 3px;
+    color: $color-white;
+  }
+  button {
+    font-family: 'Lato', sans-serif; 
+    width: 100%;
+    height: 56px;
+    background-color: $primary-color;
+    font-size: 16px;
+    font-weight: 900;
+    border: none;
+    border-radius: 3px;
+    color: $color-white;
+    cursor: pointer;
+  }
+}
+
+#section-13 form button:hover {
+  filter:drop-shadow(8px 8px 10px gray);
+}
+
+.section-13-content-team{
+  margin-top: 56px;
+}
+
+.section-13-content-team-member {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.section-13-figure {
+  width: 125px;
+  height: 125px;
+  background-color: $color-white;
+  cursor: pointer;
+  font-size: 70px;
+  &:hover {
+    background-color: transparent;
+    border: 6px solid $color-white;
+  }
+  &-text {
+    max-width: 412px;
+    margin: -4px 0 0 20px;
+    h3 {
+        @include font(18px, 700, 24px);
+    }
+
+    h4, p {
+        @include font(14px, 400, 24px);
+    }
+  }
+}
+
+.section-13-figure-text h4{
+  margin-bottom: 6px;
+}
+
+.margin-fixer{
+  margin-bottom: 32px;
+}
+
+.section-13-squares {
+  display: flex;
+  div {
+    width: 10px;
+    height: 10px;
+    background-color: $color-white;
+    cursor: pointer;
+    margin-right: 6px;
+    &:hover {
+        background-color: $primary-color;
+    }
+  }
+}

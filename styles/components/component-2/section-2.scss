@@ -1,0 +1,37 @@
+//  section 2
+#section-2 {
+    max-width: 1920px;
+    min-height: 90px;
+    font-family: 'Lato', sans-serif; 
+    box-shadow: 0px 0px 9px rgb(65, 62, 62);
+    #logo-wrapper {
+        align-items: center;
+        width: 154.09px;
+        justify-content: space-between;
+        margin: 0px 107px 0px -23px;
+        p {
+            font-size: 35.69px;
+            font-weight: 400;
+        }
+        span {
+            font-weight: 900;
+        }
+    }
+    ul {
+        max-width: 904px;
+        flex-wrap: wrap;
+        padding-left: 45px;
+        li {
+            list-style-type: none;
+            margin-right: 46.5px;
+            a {
+                text-decoration: none;
+                font-size: 15px;
+                color: $secondary-color;
+                &:hover{
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}

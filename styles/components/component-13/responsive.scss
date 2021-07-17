@@ -1,0 +1,30 @@
+@media screen and (max-width: 1279px) {
+    #section-13 {
+      flex-wrap: wrap;
+    }
+  
+    .section-13-content {
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 767px)  {
+    #section-13 {
+      padding-top: 20px;
+    }
+    
+    .section-13-figure-text {
+      width: 260px;
+    }
+  
+    .section-13-content-team {
+      margin: auto;
+      @include flex(center, column, center);
+    }
+  
+    .section-13-content > h1 {
+      font-size: 23px;
+      margin-left: 20px;
+    }
+  }
+  

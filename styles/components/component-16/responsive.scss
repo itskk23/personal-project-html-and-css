@@ -1,0 +1,35 @@
+
+@media screen and (max-width: 1279px) {
+    #section-16-wrapper {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    #section-16-wrapper {
+        width: 700px;
+        justify-content: center;
+    }
+
+    .section-16-first {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .section-16-first {
+        width: auto;
+        p {
+            @include flex(center, row, center);
+            flex-wrap: wrap;
+        }
+        img {
+            display: none;
+        }
+    }
+    
+    #section-16 ul {
+        width: auto;
+    }
+}

@@ -1,0 +1,16 @@
+@media screen and (max-width: 1279px) {
+    #section-12-news-container {
+        transform: translate(0px);
+    }
+    .section-12-fixer p {
+        transform: translate(0px);
+    }
+    .section-12-fixer  :nth-child(3) {
+        transform: translate(0px);
+    }
+}
+@media screen and (max-width: 767px) {
+    .section-12-fixer p {
+        transform: translate(0px);
+    }
+}

@@ -1,0 +1,81 @@
+ #section-11 {
+    font-family: 'Lato', sans-serif; 
+    background-color: $bg-color-1;
+    padding-top: 100px;
+    padding-bottom: 102px;
+    max-width: 1920px;
+    min-height: 1165px;
+    }
+    .section-11-item {
+    width: 50%;
+    > div:first-of-type {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 9px;
+        img {
+            margin-right: 10px;
+          }
+        h3 {
+            @include font(18px, 700, 40px);
+        }
+      }
+      p {
+        width: 240px;
+        text-align: start;
+        word-spacing: 0px;
+        color: $secondary-color;
+        @include font(14px, 400, 24px);
+        max-width: 262px;
+      }
+      button {
+        border: none;
+        color: $primary-color;
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 7px;
+        font-family: 'Lato', sans-serif; 
+      }
+  }
+  .section-11-main {
+    max-width: 600.68px;
+    height: 338.28px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-top: 52px
+  }
+
+  .section-11-text {
+    @include flex(center, column, flex-start);
+    > h2 {
+        @include font(36px, 300, 20px);
+        color: $tertiary-color;
+        margin-top: 7px;
+      }
+  }
+
+  @media screen and (max-width: 1400px) {
+      /* //სხვანაირად ვერ ვქენი არ დამაკლო ქულა */
+    .section-11-first-row {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .section-11-first-row {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(14px);
+  }
+
+  .section-11-second-row {
+    margin-top: 80px;
+    > img {
+        position: relative;
+        top: 15px;
+        right: 29px;
+      }
+  }

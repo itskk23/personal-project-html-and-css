@@ -1,0 +1,48 @@
+#section-16 {
+    font-family: 'Lato', sans-serif; 
+    max-width: 1920px;
+    min-height: 80px;
+    background-color: $bg-color-2;
+    color: $secondary-color;
+    align-items: center;
+    &-wrapper {
+        width: 1170px;
+        @include flex(space-between, row, center);
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    ul {
+        width: 433px;
+        justify-content: space-between;
+        li {
+            list-style-type: none;
+            a {
+                text-decoration: none;
+                color: $secondary-color;
+                @include font(14px, 400, 19px);
+                &:hover {
+                    color: $primary-color;
+                    border-top: 1px solid $primary-color;
+                }
+            }
+        }
+    }
+}
+
+.section-16-first{
+    align-items: center;
+    justify-content: space-between;
+    width: 547px;
+    p {
+        @include font(15px, 400, 24px);
+        span {
+            @include font(15px, 400, 24px);
+            color: $primary-color;
+        }
+    }
+    img {
+        width: 18px;
+        height: 20px;
+    }
+}
+

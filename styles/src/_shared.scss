@@ -35,6 +35,10 @@ $characters: ('Q': #ef584d, 'R': #7bc200);
     align-items: $align;
 }
 
+@mixin filter {
+    filter:drop-shadow(8px 8px 10px gray);
+}
+
 @function circleSize($circle-size){
     @return $circle-size;
 }

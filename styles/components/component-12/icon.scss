@@ -1,0 +1,13 @@
+.section-12-icon{
+    align-items: center;
+    margin-bottom: 1px;
+    i {
+        margin-right: 10px;
+        color: $primary-color;
+    }
+    p {
+        @include font(14px, 400, 30px);
+        color: $secondary-color;
+        vertical-align: middle;
+    }
+}

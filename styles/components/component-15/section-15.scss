@@ -1,5 +1,4 @@
-#section-15 {
-    font-family: 'Lato', sans-serif; 
+#section-15 { 
     max-width: 1920px;
     min-height: 607px;
     justify-content: center;
@@ -83,78 +82,10 @@
     }
 }
  
-
 .section-15-content-margin {
     margin-bottom: 25px;
 }
 
 .section-15-content-text {
     margin-bottom: 28px;
-}
-
-.section-15-input {
-    input {
-        height: 50px;
-        width: 320px;
-        background-color: $bg-color-2;
-        border: 1px solid $bg-color-2;
-        color: $color-white;
-        border-radius: 3px;
-        outline: none;
-        &::placeholder {
-            padding-left: 31px;
-            font-size: 14px;
-            color: $secondary-color;
-        }
-    }
-    div {
-        width: 50px;
-        height: 50px;
-        font-size: 23px;
-        background-color: $primary-color;
-        cursor: pointer;
-        &:hover {
-            filter:drop-shadow(8px 8px 10px gray);
-        }
-    } 
-} 
-
-.section-15-3-squares {
-    margin-bottom: 30px;
-    div {
-        width: 90px;
-        height: 90px;
-        background-color: $color-white;
-        margin-right: 17px;
-        cursor: pointer;
-        &:hover {
-            background-color: $primary-color;
-        }
-        p {
-            font-size: 50px;
-            color: $color-white;
-        }
-    }
-    > p {
-        width: 258.8px;
-        @include font(16px, 700, 27px);
-        color: $secondary-color;
-        margin-top: -6px;
-    }
-}
-
-.section-15-squares {
-    flex-wrap: wrap;
-    margin-bottom: 16px;
-    div {
-        width: 85px;
-        height: 85px;
-        background-color: $color-white;
-        margin: 0px 10px 10px 0px;
-        cursor: pointer;
-        &:hover{
-            background-color: $secondary-color;
-            border: 3px solid $color-white;
-        }
-    }
 }

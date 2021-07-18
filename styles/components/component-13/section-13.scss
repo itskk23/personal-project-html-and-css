@@ -1,5 +1,4 @@
 #section-13 {
-    font-family: 'Lato', sans-serif; 
     background-color: #2f313d;
     padding: 102px 0px 86px 0px;
     max-width: 1920px;
@@ -40,49 +39,6 @@
 
 .rotate {
   transform: rotate(45deg);
-}
-
-#section-13 form {
-  flex-direction: column;
-  height: 386px;
-  justify-content: space-between;
-  input {
-    height: 50px;
-    width: 100%;
-    border-radius: 3px;
-    background-color: transparent;
-    border: 1px solid #636372;
-    color: $color-white;
-    &::placeholder {
-        color: $color-white;
-        padding-left: 20px;
-        @include font(15px, 400, 30px);
-      }
-  }
-  textarea {
-    width: 100%;
-    height: 100px;
-    background-color: transparent;
-    border: 1px solid #636372;
-    border-radius: 3px;
-    color: $color-white;
-  }
-  button {
-    font-family: 'Lato', sans-serif; 
-    width: 100%;
-    height: 56px;
-    background-color: $primary-color;
-    font-size: 16px;
-    font-weight: 900;
-    border: none;
-    border-radius: 3px;
-    color: $color-white;
-    cursor: pointer;
-  }
-}
-
-#section-13 form button:hover {
-  filter:drop-shadow(8px 8px 10px gray);
 }
 
 .section-13-content-team{

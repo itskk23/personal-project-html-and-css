@@ -1,0 +1,25 @@
+#section-7-navbar {
+    width: 1170.24px;
+    height: 55px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px;
+    border-color:  $bg-color-1;
+    border-style: solid none solid none;
+    margin-bottom: 50px;
+    ul {
+        width: 807px;
+        justify-content: space-between;
+        li {
+            display: inline;
+            a {
+                text-decoration: none;
+                color: $secondary-color;
+                font-size: 14px;
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}

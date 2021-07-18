@@ -1,0 +1,39 @@
+.section-15-3-squares {
+    margin-bottom: 30px;
+    div {
+        width: 90px;
+        height: 90px;
+        background-color: $color-white;
+        margin-right: 17px;
+        cursor: pointer;
+        &:hover {
+            background-color: $primary-color;
+        }
+        p {
+            font-size: 50px;
+            color: $color-white;
+        }
+    }
+    > p {
+        width: 258.8px;
+        @include font(16px, 700, 27px);
+        color: $secondary-color;
+        margin-top: -6px;
+    }
+}
+
+.section-15-squares {
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+    div {
+        width: 85px;
+        height: 85px;
+        background-color: $color-white;
+        margin: 0px 10px 10px 0px;
+        cursor: pointer;
+        &:hover{
+            background-color: $secondary-color;
+            border: 3px solid $color-white;
+        }
+    }
+}

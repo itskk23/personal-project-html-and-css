@@ -1,5 +1,4 @@
 #section-7 {
-    font-family: 'Lato', sans-serif; 
     max-width: 1920px;
     min-height: 843px;
     h1 {
@@ -12,44 +11,6 @@
         text-align: center;
         margin-bottom: 46px;
         color: $secondary-color;
-    }
-    &-navbar {
-        width: 1170.24px;
-        height: 55px;
-        justify-content: space-between;
-        align-items: center;
-        border: 1px;
-        border-color:  $bg-color-1;
-        border-style: solid none solid none;
-        margin-bottom: 50px;
-        ul {
-            width: 807px;
-            justify-content: space-between;
-            li {
-                display: inline;
-                a {
-                    text-decoration: none;
-                    color: $secondary-color;
-                    font-size: 14px;
-                    &:hover {
-                        color: $primary-color;
-                    }
-                }
-            }
-        }
-        button {
-            width: 122px;
-            height: 36px;
-            background-color: $bg-color-1;
-            color: $tertiary-color;
-            border: 1px solid $bg-color-1;
-            font-size: 14px;
-            border-radius: 7px;
-            cursor: pointer;
-            &:hover {
-                filter:drop-shadow(8px 8px 10px gray);
-            }
-        }
     }
 }
 

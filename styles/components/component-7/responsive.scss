@@ -51,7 +51,7 @@
     
     #section-7-navbar ul li:hover,
     #section-7-navbar ul li:hover a {
-        background: linear-gradient(to right, #1dd1ad, #45d0ff);
+        @include gradient;
         color: $color-white;
     }
 }

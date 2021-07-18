@@ -1,5 +1,4 @@
  #section-11 {
-    font-family: 'Lato', sans-serif; 
     background-color: $bg-color-1;
     padding-top: 100px;
     padding-bottom: 102px;
@@ -27,14 +26,6 @@
         color: $secondary-color;
         @include font(14px, 400, 24px);
         max-width: 262px;
-      }
-      button {
-        border: none;
-        color: $primary-color;
-        font-size: 15px;
-        font-weight: 700;
-        margin-top: 7px;
-        font-family: 'Lato', sans-serif; 
       }
   }
   .section-11-main {

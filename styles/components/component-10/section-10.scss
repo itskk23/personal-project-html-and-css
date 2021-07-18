@@ -1,5 +1,4 @@
 #section-10 {
-    font-family: 'Lato', sans-serif; 
     max-width: 1920px;
     padding-top: 102px;
     padding-bottom: 100px;
@@ -41,7 +40,7 @@
         color: $secondary-color;
     }
     .pricing-black {
-        background-color: #eaebec;
+        background-color: $bg-color-3;
     }
     .pricing-white {
         background-color: #f6f6f6;
@@ -55,8 +54,8 @@
 }  
 .pricing-gradient {
     position: relative;
-    background: linear-gradient(to right, #1dd1ad, #45d0ff);
-    border-bottom: 2px solid #707070;
+    @include gradient;
+    border-bottom: 2px solid $border-grey-3;
 }
 .pricing-header-first {
     width: 100%;
@@ -88,24 +87,14 @@
     font-weight: 400;
     letter-spacing: 0.4px;
 }
-.pricing-button {
-    width: 120px;
-    height: 32px;
-    border: none;
-    background-color: $primary-color;
-    font-size: 15px;
-    color: $color-white;
-    font-weight: 700;
-    box-shadow: 0px 2px 0px #16a085;
-    cursor: pointer;
-} 
+
 .pricnig-column:hover .pricing-header-first {
     position: relative;
     height: 54%;
     top: -10px;
 }
 .pricnig-column:hover .pricing-button {
-    background-color: #3a3e4a; 
+    background-color: #3a3e4a!important; 
 }
 
 .pricing-last {
@@ -114,7 +103,7 @@
     height: 150px;
     margin: auto;
     text-align: start;
-    border: 1px solid #eaebec;
+    border: 1px solid $bg-color-3;
     margin-top: 102px; 
     &-text {
         width: 1075.5px;
@@ -133,23 +122,6 @@
             font-weight: 300;
             margin-bottom: 9px;
         }  
-    }
-    button {
-        font-family: 'Lato', sans-serif; 
-        width: 176px;
-        height: 50px;
-        background-color: $primary-color;
-        font-size: 18px;
-        font-weight: 700;
-        border: none;
-        color: $color-white;
-        border-radius: 4px; 
-        padding-right: 3px;
-        margin-right: 3px;
-        cursor: pointer;
-        &:hover {
-            filter:drop-shadow(8px 8px 10px gray);
-        }
     }
 } 
 .pricing-text-position {

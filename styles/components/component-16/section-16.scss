@@ -1,5 +1,4 @@
 #section-16 {
-    font-family: 'Lato', sans-serif; 
     max-width: 1920px;
     min-height: 80px;
     background-color: $bg-color-2;
@@ -10,22 +9,6 @@
         @include flex(space-between, row, center);
         margin: auto;
         flex-wrap: wrap;
-    }
-    ul {
-        width: 433px;
-        justify-content: space-between;
-        li {
-            list-style-type: none;
-            a {
-                text-decoration: none;
-                color: $secondary-color;
-                @include font(14px, 400, 19px);
-                &:hover {
-                    color: $primary-color;
-                    border-top: 1px solid $primary-color;
-                }
-            }
-        }
     }
 }
 

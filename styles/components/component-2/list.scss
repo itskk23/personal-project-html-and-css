@@ -1,0 +1,19 @@
+#section-2 {
+    ul {
+        max-width: 904px;
+        flex-wrap: wrap;
+        padding-left: 45px;
+        li {
+            list-style-type: none;
+            margin-right: 46.5px;
+            a {
+                text-decoration: none;
+                font-size: 15px;
+                color: $secondary-color;
+                &:hover{
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}

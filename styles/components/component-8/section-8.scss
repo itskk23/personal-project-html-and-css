@@ -1,5 +1,4 @@
 #section-8 {
-    font-family: 'Lato', sans-serif; 
     max-width: 1920px;
     min-height: 711px;
     background-color: $bg-color-1;
@@ -58,13 +57,5 @@
         @include font(14px, 400, 24px);
         color: $secondary-color;
         margin-bottom: 45px;
-    }
-    form {
-        margin-left: 20px;
-        input {
-            transform: scale(1.2);
-            margin-right: 10px;
-            cursor: pointer;
-        }
     }
 }

@@ -3,14 +3,12 @@ $sizes: (1: 60px, 2: 50px);
 $characters: ('Q': #ef584d, 'R': #7bc200);
 
 
-
 @each $index, $character in $characters {
     .color-#{$index} {
         color: $character;
         font-size: 16px;
     }
 }
-
 
 @each $index, $size in $sizes {
     .circle-#{$index} {
@@ -39,6 +37,10 @@ $characters: ('Q': #ef584d, 'R': #7bc200);
     filter:drop-shadow(8px 8px 10px gray);
 }
 
+@mixin gradient {
+    background: linear-gradient(to right, #1dd1ad, #45d0ff);
+}
+
 @function circleSize($circle-size){
     @return $circle-size;
 }
@@ -54,6 +56,21 @@ $characters: ('Q': #ef584d, 'R': #7bc200);
         }
     }
 }
+  
+.flex {
+    display: flex;
+}
+
+.flex-row-center {
+    @extend .flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column-center {
+    @extend .flex-row-center;
+    flex-direction: column;
+}
 
 input[type="radio"]:checked:after {
     width: 9px;
@@ -66,24 +83,6 @@ input[type="radio"]:checked:after {
     visibility: visible;
     border: 2px solid white;
   }
-
-  
-.flex {
-    display: flex;
-}
-
-.flex-row-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.flex-column-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 
 .section-15-fix-margin-1 {
     margin-left: 10px;

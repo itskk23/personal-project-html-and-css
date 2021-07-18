@@ -1,0 +1,13 @@
+#section-7-navbar  button {
+    width: 122px;
+    height: 36px;
+    background-color: $bg-color-1;
+    color: $tertiary-color;
+    border: 1px solid $bg-color-1;
+    font-size: 14px;
+    border-radius: 7px;
+    cursor: pointer;
+    &:hover {
+        @include filter;
+    }
+}

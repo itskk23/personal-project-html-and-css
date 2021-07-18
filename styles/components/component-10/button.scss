@@ -1,0 +1,31 @@
+#section-10 {
+    button {
+        font-family: 'Lato', sans-serif; 
+        width: 176px;
+        height: 50px;
+        background-color: $primary-color;
+        font-size: 18px;
+        font-weight: 700;
+        border: none;
+        color: $color-white;
+        border-radius: 4px; 
+        padding-right: 3px;
+        margin-right: 3px;
+        cursor: pointer;
+        &:hover {
+            @include filter;
+        }
+    }
+    
+    .pricing-button {
+        width: 120px;
+        height: 32px;
+        border: none;
+        background-color: $primary-color;
+        font-size: 15px;
+        color: $color-white;
+        font-weight: 700;
+        box-shadow: 0px 2px 0px #16a085;
+        cursor: pointer;
+    } 
+}

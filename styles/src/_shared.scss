@@ -1,6 +1,8 @@
 @import './palette';
 $sizes: (1: 60px, 2: 50px);
 $characters: ('Q': #ef584d, 'R': #7bc200);
+$font-sizes: (30, 60);
+
 
 
 @each $index, $character in $characters {
@@ -18,6 +20,10 @@ $characters: ('Q': #ef584d, 'R': #7bc200);
         border-radius: 50%;
         position: absolute;
     }
+}
+
+@each $font-size in $font-sizes {
+   .font-#{$font-size} {font-size: $font-size + px;} 
 }
 
 @mixin font($size, $weight, $height) {
@@ -44,6 +50,14 @@ $characters: ('Q': #ef584d, 'R': #7bc200);
 @function circleSize($circle-size){
     @return $circle-size;
 }
+
+@function width($width-size) {
+    @if $width-size == 'desktop' {
+      @return 446px;
+    } @else {
+      @return 300px;
+    }
+  }
 
 @for $i from 1 to 4 {
     .section-9-menu-column-item:nth-child(#{$i}) h3 {
